@@ -9,11 +9,11 @@ Sections: 1.1, 1.2, 1.3 and 1.5
 ## 1. Building a Scalable Network
 - What are the key considerations when building a scalable network?
 
-Para construir una red escalable debemos tener en cuenta varios factores,entre estos encontramos la capacidad de expansión para acomodar un mayor número de equipos, el uso de recursos, la facilidad de administración y la capacidad para tener y conservar un rendimiento adecuado a medida que la red crece.
+Para construir una red escalable debemos tener en cuenta varios factores, entre estos encontramos la capacidad de expansión para acomodar un mayor número de equipos, el uso de recursos, la facilidad de administración y la capacidad para tener y conservar un rendimiento adecuado a medida que la red crece.
 
 - Explain the concept of network scalability and why it is important.
 
-La escalabilidad de redes se refiere a la capacidad de la red para crecer y adaptarse a las demandas cambiantes sin empeorar su rendimiento. Esto es importante porque permite ajustar la red a medida que las necesidades cambian o aumentan, evitando costos inecesario o que se pudieron preveer.
+La escalabilidad de redes se refiere a la capacidad de la red para crecer y adaptarse a las demandas cambiantes sin empeorar su rendimiento. Esto es importante porque permite ajustar la red a medida que las necesidades cambian o aumentan, evitando costos innecesarios o que se pudieron proveer.
 
 - Provide examples of different applications that require a scalable network.
 
@@ -21,7 +21,7 @@ Algunos de los ejemplos de aplicaciones que requieren redes escalables incluyen 
 
 - Why does a network need to be cost-effective, fair, and have robust connectivity?
 
-Una red debe ser costeable para evitar gastos grandes innecesarios, justa para que todos los usuarios tengan acceso equitativo a los recursos de la red y por ultimo tener conectividad robusta para garantizar la disponibilidad del servicios.
+Una red debe ser costeable para evitar gastos grandes innecesarios, justa para que todos los usuarios tengan acceso equitativo a los recursos de la red y por último tener conectividad robusta para garantizar la disponibilidad del servicio.
 
 - Discuss the challenges involved in designing a network that can support various applications.
 
@@ -31,7 +31,7 @@ Se puede hablar de las diferentes necesidades de aplicaciones y las cuales requi
 ## 2. Computer Network Architecture
 - Define computer network architecture in terms of layers and protocols
 
-La arquitectura de redes de computadoras se basa en division de las funciones de la red en algo llamado capas. Cada una de estas capas se ocupa de una parte específica entre la comunicación de datos y utilizacion de protocolos para el intercambio de información. Algunos ejemplos de arquitecturas de capas puede ser el modelo OSI y el modelo TCP/IP.
+La arquitectura de redes de computadoras se basa en división de las funciones de la red en algo llamado capas. Cada una de estas capas se ocupa de una parte específica entre la comunicación de datos y utilización de protocolos para el intercambio de información. Algunos ejemplos de arquitecturas de capas puede ser el modelo OSI y el modelo TCP/IP.
 
 - Why are layers and protocols important?
 
@@ -41,11 +41,11 @@ Las capas y los protocolos son importantes porque proporcionan una estructura or
 
 Encapsulation: Es el proceso de empaquetar datos en una estructura específica que incluye información de control y encabezados, que permite que los datos viajen a través de la red.
 Multiplexing: Es la técnica de combinar múltiples flujos de datos en un solo canal de comunicación para que la transmisión sea eficiente.
-Demultiplexing: Es el proceso inverso de multiplexing, donde se separan los flujos de datos combinados para dirigirlos a las capas y aplicaciones especificas.
+Demultiplexing: Es el proceso inverso de multiplexing, donde se separan los flujos de datos combinados para dirigirlos a las capas y aplicaciones específicas.
 
 - Discuss the role of each layer in the OSI and Internet protocol stack.
 
-En el modelo OSI, cada capa tiene una función específica en el proceso de comunicación. En el modelo TCP/IP, las capas se agrupan en cuatro niveles: Aplicación, Transporte, Internet y Enlace de Datos. Cada capa tiene una función clara, como la capa de aplicación para aplicaciones de usuario, la capa de transporte para controlar la comunicación extremo a extremo, la capa de internet para enrutamiento y la capa de enlace de datos para la transmisión de datos físicos.
+En el modelo OSI, cada capa tiene una función específica en el proceso de comunicación. En el modelo TCP/IP, las capas se agrupan en cuatro niveles: Aplicación, Transporte, Internet y Enlace de Datos. Cada capa tiene una función clara, como la capa de aplicación para aplicaciones de usuario, la capa de transporte para controlar la comunicación extrema a extremo, la capa de internet para enrutamiento y la capa de enlace de datos para la transmisión de datos físicos.
 
 - Provide examples of protocols used at each layer of the TCP/IP protocol stack.
 
@@ -95,20 +95,21 @@ En redes de alta velocidad, es más difícil medir con precisión la latencia de
 
     a. Open a file.
     
-    Esta es mas sensible a los retrasos ya que hace una conexión con el servidor de archivos remoto y verificar los permisos del usuario
+    Esta es más sensible a los retrasos ya que hace una conexión con el servidor de archivos remoto y verificar los permisos del usuario
 
     b. Read the contents of a file.
     
-    Esta puede ser ambos dependiendo del archivo y la velocidad de la red, por ejemplo si el archivo es grande este sera mas sensible al ancho de banda
+    Esta puede ser ambos dependiendo del archivo y la velocidad de la red, por ejemplo, si el archivo es grande este será más sensible al ancho de banda
     
     c. List the contents of a directory.
     
-    Esta es mas sensible a los retrasos ya que hace una conexion con el servido por los datos.
+    Esta es más sensible a los retrasos ya que hace una conexión con el servido por los datos.
     
     d. Display the attributes of a file.
     
-    Esta es mas sensible a los retrasos ya que hace una conexión con el servidor por los datos que se necesitan rapidamente.
+    Esta es más sensible a los retrasos ya que hace una conexión con el servidor por los datos que se necesitan rápidamente.
     
+
     
 3. Suppose a host has a 1-MB file that is to be sent to another host. The file takes 1 second of CPU time to compress 50% or 2 seconds to compress 60%.
 
